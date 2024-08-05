@@ -14,7 +14,6 @@ import org.springframework.context.annotation.ComponentScan;
 @EntityScan(basePackages = "org.example.toolrental.data.entity")
 public class ToolRentalServiceConfig {
 
-
     @Bean
     public RulesEngine rulesEngine() {
         return new DefaultRulesEngine();
